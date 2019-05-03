@@ -1,0 +1,110 @@
+#menu {  
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+  background-color: #A0CFEC;
+  height: 400px;
+  width: 300px; 
+  border-radius: 30px;
+  border: 1px dotted black;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#menu-inside { 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+#menu-screen {
+  border: 1px dashed #B3B5BE;
+  border-radius: 30px;
+  text-align: right;
+  height: 35px; 
+  margin-top: 18px;
+  margin-bottom: 18px;
+  padding: 18px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#reset, .digit, 
+.symbol, #symbol-plus,
+#digit-zero, #result,
+#dot, #symbol-multiply {
+  height: 40px;
+  width: 55px;
+  margin: 0px 4px 12px 8px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 22px;
+  border: 1px solid transparent;
+  color: #FFF;
+  background-color: #9EC765;
+  padding-top: 5px;
+  line-height: 35px;
+}
+
+#reset:hover, #result:hover, 
+#dot:hover, .digit:hover, 
+#digit-zero:hover, .symbol:hover, 
+#symbol-plus:hover, #symbol-multiply:hover  { 
+  cursor: pointer;
+}
+
+#reset:active, #result:active, 
+#dot:active, .digit:active, 
+#digit-zero:active, .symbol:active, 
+#symbol-plus:active, #symbol-multiply:active { 
+  transform: translateY(3px);
+}
+    
+#reset {
+  background-color: #FBB117;
+}
+
+#symbol-plus {
+  height: 100px;
+  grid-row: 2/ span 2;
+  line-height: 90px; 
+  font-size: 30px;
+}
+
+#digit-zero {  
+  grid-column: 2 / span 2;
+  width: 122px;
+  position: relative;
+  top: -60px;
+  line-height: 33px; 
+}
+
+#result {  
+  height: 100px;
+  line-height: 90px; 
+  font-size: 30px;
+}
+
+ #dot {  
+  position: relative;
+  top: -60px; 
+  font-size: 30px;
+  line-height: 15px; 
+}
+
+#symbol-multiply {
+    line-height: 43px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
